@@ -85,8 +85,6 @@ class War {
     //should make a Viking receiveDamage() equal to the strength of a Saxon
     let damageOfViking = randomViking1.receiveDamage(randomSaxon1.strength);
     //should remove dead vikings from the army
-    console.log('prout');
-    console.log(randomViking1.health);
     if (randomViking1.health < 0) {
       this.vikingArmy.splice(randomVikingIndex1, 1) 
     };
@@ -95,8 +93,6 @@ class War {
 
 }
 
-
-console.log(War.saxonAttack);
 //POUR COMPRENDRE
 // let ragnar = new Viking('ragnar', 100, 30);
 // let ww2 = new War;
